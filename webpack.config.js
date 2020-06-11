@@ -13,7 +13,7 @@ module.exports = {
       cleanStaleWebpackAssets: false,
     }),
     new HtmlWebpackPlugin({
-      title: 'Caching',
+      title: 'Code Splitting',
     }),
   ],
   output: {
@@ -24,11 +24,6 @@ module.exports = {
   optimization: {
     splitChunks: {
       chunks: 'all',
-      // name: true,
-      // cacheGroups: {
-      //   vendors: false,
-      //   default: false
-      // },
     },
   },
 };
