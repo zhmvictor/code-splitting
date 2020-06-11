@@ -163,7 +163,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/_lodash@4.17.15@lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n// function getComponent() {\r\n// \treturn import(/* webpackChunkName: 'lodash' */'lodash').then(({ default: _ }) => {\r\n// \t\tvar element = document.createElement('div');\r\n// \t\telement.innerHTML = _.join(['Dell', 'Lee'], '-');\r\n// \t\treturn element;\r\n// \t})\r\n// }\r\n\r\n// getComponent().then(element => {\r\n// \tdocument.body.appendChild(element);\r\n// });\r\n\r\n\r\n\r\nconsole.log(\r\n  lodash__WEBPACK_IMPORTED_MODULE_0___default.a.join(['Another', 'module', 'loaded!'], ' ')\r\n);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/_lodash@4.17.15@lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nconsole.log(lodash__WEBPACK_IMPORTED_MODULE_0___default.a.join(['Hello', 'loaded!'], '-'));\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
