@@ -1,21 +1,7 @@
-// function getComponent() {
-// 	return import(/* webpackChunkName: 'lodash' */'lodash').then(({ default: _ }) => {
-// 		const element = document.createElement('div');
-// 		element.innerHTML = _.join(['Hello', 'lodash'], '-');
-// 		return element;
-// 	})
-// }
-
-// getComponent().then(element => {
-// 	document.body.appendChild(element);
-// });
-
-// import test from './test.js';
-// console.log(test.name);
-
 import _ from 'lodash';
+import test from './test.json';
 import jquery from 'jquery';
 
-console.log(
-  _.join(['Another', 'module', 'loaded!'], ' ')
-);
+console.log(_.join(['Hello', 'webpack'], ' '));
+
+console.log(test.name);
